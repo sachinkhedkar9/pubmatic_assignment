@@ -1,0 +1,13 @@
+logs
+public
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+/bin/
+/node_modules/
+/src/bower_components/
+/public/bower_components/
+/nbproject  

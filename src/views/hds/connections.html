@@ -1,0 +1,12 @@
+<h2>Connections</h2>
+
+<table class="hdsTable table table-bordered table-stripped">
+    <tbody class="table-hover">
+        <tr ng-repeat="(key,val) in connectionData">
+            <td>{{key}}</td>
+            <td>
+                <input class="form-control input-sm" type="text" ng-model="val" disabled/>                
+            </td>
+        </tr>
+    </tbody>
+</table>

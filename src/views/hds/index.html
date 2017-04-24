@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default navbar-static-top navbar-inverse">
+    <div class="container-fluid">
+       <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            </button>
+            <a class="navbar-brand" href="#/hds/">Hitachi</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a ui-sref="hds.accounts">Accounts <span class="sr-only">(current)</span></a></li>
+                <li><a ui-sref="hds.connections">Connections</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a ng-href="#/login/">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+<div class='tabsDetails col-xs-12 col-sm-12 col-md-10 col-lg-10' ui-view>
+    <p>Welcome to HDS</p>
+    Please Click on any tab
+</div>
+<div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+
+<footer class="footer">
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 ">
+        <label>v6.6.6 &copy; 2012 Hitachi All rights reserved</label>
+    </div>
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-1"></div>
+  
+</footer>

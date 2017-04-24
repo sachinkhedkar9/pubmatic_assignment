@@ -1,0 +1,26 @@
+.showTable{
+  display: block;
+}
+
+.hideTable{
+  display: none;
+}
+
+.hr-extended{
+  width: 100%;
+  border-bottom: 1px solid $color_iron_approx;
+  margin: 10px 0 20px 0;
+}
+
+.hdsTable tr:hover{
+  background: $color_iron_approx;
+  color: $color_tuatara_approx;
+}
+
+@media (min-width: 1000px){
+  .tabsDetails{
+    box-shadow: 0px 0px 10px 3px $color_gunsmoke_approx;
+    min-height: 85vh;
+  }
+
+}
